@@ -6,51 +6,59 @@ import Testimonials4 from '../../img/Testimonials4.svg';
 import Testimonials5 from '../../img/Testimonials5.svg';
 
 
-import './CardTestimonials.css'
+import './CardTestimonials.scss'
 
 
 function CardTestimonials () {
 
     return (
         <>
-        <div class="row">
-                <div class="col-sm-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src={Testimonials1} className="card-img-top" alt="" />
-                                <h2 className="card-title">Nombre y Apellido</h2>
-                                <p className="card-text">"testimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimonio"</p>
-                        </div>    
+            <div class="row card-testi">
+                <div className="card col-sm-2">
+                    <div className="card-head">
+                       <img src={Testimonials1} className="img-card" alt="..." /> 
+                    </div>
+                    <div className="card-body">
+                        <h2 className="card-title" >Nombre y Apellido</h2>
+                        <p className="card-text">testimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimonio</p>
                     </div>
                 </div>
-                {/* <div class="col-sm-2">
-                    <div class="card">
-                        <img src={Testimonials2} className="card-img-top" alt="" />
-                            <h2 className="card-title">Julian Fernandez</h2>
-                            <p className="card-text">Ceo/ CoFounder</p>
+                <div className="card col-sm-2">
+                    <div className="card-head">
+                      <img src={Testimonials2} className="img-card" alt="..." />
+                    </div>
+                    <div className="card-body">
+                    <h2 className="card-title" >Nombre y Apellido</h2>
+                        <p className="card-text">testimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimonio</p>
                     </div>
                 </div>
-                <div class="col-sm-2">
-                    <div class="card">
-                        <img src={Testimonials3} className="card-img-top" alt="" />
-                            <h2 className="card-title">Julian Fernandez</h2>
-                            <p className="card-text">Ceo/ CoFounder</p>
+                <div className="card col-sm-2">
+                    <div className="card-head">
+                      <img src={Testimonials3} className="img-card" alt="..." />
+                    </div>
+                    <div className="card-body">
+                        <h2 className="card-title" >Nombre y Apellido</h2>
+                        <p className="card-text">testimootestimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimonio</p>
                     </div>
                 </div>
-                <div class="col-sm-2">
-                    <div class="card">
-                        <img src={Testimonials4} className="card-img-top" alt="" />
-                            <h2 className="card-title">Julian Fernandez</h2>
-                            <p className="card-text">Ceo/ CoFounder</p>
+                <div className="card col-sm-2">
+                    <div className="card-head">
+                      <img src={Testimonials4} className="img-card" alt="..." />
+                    </div>
+                    <div className="card-body">
+                        <h2 className="card-title" >Nombre y Apellido</h2>
+                        <p className="card-text">testimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimonio</p>
                     </div>
                 </div>
-                <div class="col-sm-2">
-                    <div class="card">
-                        <img src={Testimonials5} className="card-img-top" alt="" />
-                            <h2 className="card-title">Julian Fernandez</h2>
-                            <p className="card-text">Ceo/ CoFounder</p>
+                <div className="card col-sm-2">
+                    <div className="card-head">
+                      <img src={Testimonials5} className="img-card" alt="..." />
                     </div>
-                </div> */}
+                    <div className="card-body">
+                          <h2 className="card-title" >Nombre y Apellido</h2>
+                        <p className="card-text">testimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimoniotestimonio</p>
+                    </div>
+                </div>
             </div>
         </>
     )
